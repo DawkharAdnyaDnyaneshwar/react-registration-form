@@ -72,10 +72,7 @@ class RegistrationForm extends Component {
         <h1 className="heading">Registration</h1>
         <div className="form-result-container">
           {showSuccessResult ? (
-            <form
-              className="success-container"
-              onSubmit={this.submitAnotherForm}
-            >
+            <form className="form-container" onSubmit={this.submitAnotherForm}>
               <img
                 src="https://assets.ccbp.in/frontend/react-js/success-icon-img.png"
                 alt="success"
